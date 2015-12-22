@@ -13,6 +13,6 @@ matrix:
 
 before_install: composer self-update
 
-install: install --no-interaction
+install: composer install --no-interaction
 
 script: phpunit --configuration $DB.phpunit.xml
