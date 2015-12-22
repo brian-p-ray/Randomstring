@@ -11,8 +11,8 @@ class Randomstring
 	public static $hex    = '1234567890abcdef';
 
 	/**
-	 * Generate random strings.
-	 * @param  array $params overwrite defaults
+	 * Generates random strings.
+	 * @param  array $params
 	 * @return  string
 	 */
 	public static function generate(array $params = array())
