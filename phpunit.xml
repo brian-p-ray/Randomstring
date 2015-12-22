@@ -11,7 +11,7 @@
          stopOnFailure="false"
          syntaxCheck="true">
     <testsuites>
-        <testsuite name="Haikunator Test Suite">
+        <testsuite name="Randomstring Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
