@@ -7,7 +7,7 @@ class Randomstring
 	public static $upper  = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	public static $lower  = 'abcdefghijklmnopqrstuvwxyz';
 	public static $number = '1234567890';
-	public static $symbol = '!#%&()*+,-./~:;<=>?@[]^_`{|}';
+	public static $symbol = '!#%&()*+,-./~:;<=>?@^_`{|}';
 	public static $hex    = '1234567890abcdef';
 
 	/**
