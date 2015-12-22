@@ -1,0 +1,21 @@
+{
+    "name": "monodesigns/randomstring",
+    "description": "Generate random strings/passwords.",
+    "license": "Phil Sturgeon's DBAD license",
+    "authors": [
+        {
+            "name": "monodesigns",
+            "email": "monodesigns@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "4.5.*"
+    },
+    "autoload": {
+      "classmap": [
+        "src/"
+      ]
+    }
+}
