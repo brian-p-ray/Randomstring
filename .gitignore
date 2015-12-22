@@ -18,7 +18,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # Vendor directory
-# vendor/
+vendor/
 
 # =========================
 # Operating System Files
