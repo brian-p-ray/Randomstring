@@ -1,6 +1,6 @@
 # Randomstring
 [![Travis](https://img.shields.io/travis/monodesigns/Randomstring.svg?style=flat-square)](https://travis-ci.org/monodesigns/Randomstring)
-![License](https://img.shields.io/packagist/l/monodesigns/randomstring.svg?style=flat-square)
+[![License](https://img.shields.io/packagist/l/monodesigns/randomstring.svg?style=flat-square)](https://packagist.org/packages/monodesigns/randomstring)
 [![Version](https://img.shields.io/packagist/v/monodesigns/Randomstring.svg?style=flat-square)](https://packagist.org/packages/monodesigns/randomstring)
 
 ## Installation
