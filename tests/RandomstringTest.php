@@ -14,37 +14,37 @@ class RandomstringTest extends TestCase
 	}
 	public function testHexUse()
 	{
-		$randomstring = Randomstring::generate(array('hex' => true));
+		$randomstring = Randomstring::generate(['hex' => true]);
 		$this->assertRegExp("/((?:[a-f0-9]{6}))$/i", $randomstring);
 	}
 	public function test9DigitsUse()
 	{
-		$randomstring = Randomstring::generate(array('length' => 9));
+		$randomstring = Randomstring::generate(['length' => 9]);
 		$this->assertRegExp("/((?:[a-zA-Z0-9]{9}))$/i", $randomstring);
 	}
 	public function testUpperUse()
 	{
-		$randomstring = Randomstring::generate(array('types' => 'upper'));
+		$randomstring = Randomstring::generate(['types' => 'upper']);
 		$this->assertRegExp("/((?:[A-Z]{6}))$/i", $randomstring);
 	}
 	public function testLowerUse()
 	{
-		$randomstring = Randomstring::generate(array('types' => 'lower'));
+		$randomstring = Randomstring::generate(['types' => 'lower']);
 		$this->assertRegExp("/((?:[a-z]{6}))$/i", $randomstring);
 	}
 	public function testNumberUse()
 	{
-		$randomstring = Randomstring::generate(array('types' => 'number'));
+		$randomstring = Randomstring::generate(['types' => 'number']);
 		$this->assertRegExp("/((?:[0-9]{6}))$/i", $randomstring);
 	}
 	public function testCustomUse()
 	{
-		$randomstring = Randomstring::generate(array('custom' => '!'));
+		$randomstring = Randomstring::generate(['custom' => '!']);
 		$this->assertRegExp("/((?:[a-zA-Z0-9!]{6}))$/i", $randomstring);
 	}
 	public function testAllUse()
 	{
-		$randomstring = Randomstring::generate(array('types' => 'all'));
+		$randomstring = Randomstring::generate(['types' => 'all']);
 		$this->assertRegExp("/((?:[\s\S]{6}))$/i", $randomstring);
 	}
 	public function testWontReturnSameForSubsequentCalls()

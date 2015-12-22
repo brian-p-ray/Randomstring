@@ -17,12 +17,12 @@ class Randomstring
 	 */
 	public static function generate(array $params = array())
 	{
-		$defaults = array(
+		$defaults = [
 			'length' => 6,
 			'types' => 'upper lower number', // all, upper, lower, number, symbol - space separated
 			'hex' => false,
 			'custom' => ''
-		);
+		];
 		
 		$params = array_merge($defaults, $params);
 
