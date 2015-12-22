@@ -15,7 +15,7 @@ class Randomstring
 	 * @param  array $params overwrite defaults
 	 * @return  string
 	 */
-	public function generate(array $params = array())
+	public static function generate(array $params = array())
 	{
 		$defaults = array(
 			'length' => 6,
