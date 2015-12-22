@@ -21,6 +21,3 @@ before_install:
 
 install:
   - travis_retry composer install --no-interaction
-
-script:
-  - composer test
