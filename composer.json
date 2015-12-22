@@ -1,7 +1,7 @@
 {
     "name": "monodesigns/randomstring",
     "description": "Generate random strings/passwords.",
-    "license": "Phil Sturgeon's DBAD license",
+    "license": "DBAD license",
     "authors": [
         {
             "name": "monodesigns",
